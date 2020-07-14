@@ -28,4 +28,4 @@ my_randoms = set(my_randoms)
 numbers_1_to_10 = set(numbers_1_to_10)
 exist = my_randoms.intersection(numbers_1_to_10)
 dont_exist = (exist^numbers_1_to_10)&numbers_1_to_10
-print(f'These numbers exist in the my_randoms list: {list(exist)} and these numbers do not: {list(dont_exist)}')
+print(f'These numbers exist in the my_randoms list: {list(exist)}\nThese numbers do not exist in the my_randoms list: {list(dont_exist)}')
