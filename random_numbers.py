@@ -23,7 +23,7 @@ for number in numbers_1_to_10:
         print(f'{number} is NOT in the random list')
 print(my_randoms)
 
-# O(n)
+# O(n) ...?
 my_randoms = set(my_randoms)
 numbers_1_to_10 = set(numbers_1_to_10)
 exist = my_randoms.intersection(numbers_1_to_10)
